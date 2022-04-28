@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: lightblue;
+    height: 60vh;
+    width: 70vw;
+    margin: auto;
+}
+img {
+    height: 60vh;
+    width: auto;
+    padding-left: 100px;
+}
+
+p{
+    background-color: lightcoral;
+    height: 60vh;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1);
+    gap: 20px;
+}
